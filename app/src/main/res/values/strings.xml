@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MediaPlayer_Udacity</string>
+    <string name="musics_list">Music</string>
+    <string name="videos_list">Videos</string>
+    <string name="favorites_list">Favorites</string>
+    <string name="source_list">Source</string>
+    <string name="back">Back</string>
+</resources>
