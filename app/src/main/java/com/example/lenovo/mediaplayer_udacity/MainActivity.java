@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         * 4. Music Player
         * 5. Video Player
         * 6. Source to Search Media
+        *
         * */
 
         TextView musicList = (TextView)findViewById(R.id.musics_list);
