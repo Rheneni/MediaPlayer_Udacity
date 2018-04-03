@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    style="@style/MainMenu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            style="@style/MediaPlayerImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            style="@style/MainMenuButtons"
+            android:text="@string/musics_list"
+            android:id="@+id/musics_list"/>
+
+        <TextView
+            style="@style/MainMenuButtons"
+            android:text="@string/videos_list"
+            android:id="@+id/videos_list"/>
+
+        <TextView
+            style="@style/MainMenuButtons"
+            android:text="@string/favorites_list"
+            android:id="@+id/favorites_list"/>
+
+        <TextView
+            style="@style/MainMenuButtons"
+            android:text="@string/source_list"
+            android:id="@+id/source_list"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
